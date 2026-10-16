@@ -1,4 +1,3 @@
-import pytest
 from src.calculadora import (
     sumar, restar, multiplicar, dividir, potencia,
     raiz_cuadrada, promedio, maximo, minimo,
