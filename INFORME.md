@@ -61,3 +61,13 @@ src\validador.py               67      0   100%
 ---------------------------------------------------------
 TOTAL                         580    411    29%
 ========================= 49 passed in 1.14s =========================
+```
+
+## 5. Reflexion final
+¿Qué NO mide la cobertura?
+
+El porcentaje de cobertura mide que todas las lineas del codigo se ejecuten pero NO mide que estas sean validas o libres de errores, por ejemplo para funciones como raiz_cuadrada no detectaba o validaba que el numero fuera positivo.
+
+¿Qué aprendí en este taller?
+
+Aprendí que hacer buenas pruebas unitarias con la estructura AAA es pensar más alla de lo que uno da por hecho, pensar en los casos extremos o que uno piensa que no van a pasar. También me quedó claro lo útil que es mantener el orden en GitHub usando commits ordenados al separar commits para bugs y otros para los fix, lo cual hace que el trabajo sea mas facil de llevar.
