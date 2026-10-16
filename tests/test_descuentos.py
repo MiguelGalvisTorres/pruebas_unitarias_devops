@@ -1,3 +1,5 @@
+import pytest
+
 from src.descuentos import (
     aplicar_descuento, calcular_descuento, calcular_precio_final,
     descuento_por_volumen, descuento_cumulativo, descuento_apilado
